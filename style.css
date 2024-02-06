@@ -16,3 +16,19 @@
   --color-hero-overlay: rgba(57, 24, 111, 0.4);
   --color-course-overlay: rgba(32, 8, 19, 0.63);
 }
+
+/* global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-body);
+}
+
+img {
+  display: block;
+}
