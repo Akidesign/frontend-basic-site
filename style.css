@@ -40,10 +40,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
 }
 
 .header-logo-wrapper {
@@ -62,4 +58,22 @@ img {
   .header-logo {
     height: 30px;
   }
+}
+
+/* hero */
+.hero-main-copy {
+  font-family: var(--font-family-heading);
+  font-size: 64px;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 0.05em;
+  color: var(--color-accent-yellow);
+}
+
+.hero-main-copy-accent {
+  color: var(--color-accent-red);
+}
+
+.hero-sub-copy {
+  margin: 0;
 }
