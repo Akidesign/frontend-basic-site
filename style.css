@@ -32,3 +32,8 @@ body {
 img {
   display: block;
 }
+
+/* header */
+.header {
+  background-color: var(--color-background-black);
+}
