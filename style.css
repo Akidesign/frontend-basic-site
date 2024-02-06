@@ -61,6 +61,13 @@ img {
 }
 
 /* hero */
+.hero-texts {
+  color: var(--color-accent-yellow);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .hero-main-copy {
   font-family: var(--font-family-heading);
   font-size: 64px;
@@ -75,4 +82,5 @@ img {
 
 .hero-sub-copy {
   margin: 0;
+  color: var(--color-accent-yellow);
 }
