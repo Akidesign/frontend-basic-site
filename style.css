@@ -253,6 +253,7 @@ img {
   padding: 20px;
   flex-direction: column;
   align-items: flex-end;
+  min-height: 150px;
   font-size: 16px;
   gap: 10px;
   flex: 1 0 0;
@@ -303,6 +304,7 @@ img {
 
 .show-more-all {
   color: var(--color-white);
+  font-size: 20px;
   text-align: center;
   flex-grow: 1;
 }
@@ -326,7 +328,7 @@ img {
     height: auto;
     flex-direction: column;
   }
-  .course-block-more {
+  .course-show-more {
     font-size: 12px;
   }
 
