@@ -147,7 +147,7 @@ img {
 }
 
 .container {
-  max-width: 800px;
+  width: 800px;
   padding: 0 40px;
   display: flex;
   flex-direction: column;
