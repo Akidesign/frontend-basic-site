@@ -474,8 +474,7 @@ img {
 
 @media (max-width: 750px) {
   .footer {
-    width: 390px;
-    align-items: flex-start;
+    display: flex;
   }
 
   .footer-copyright {
